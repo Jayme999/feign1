@@ -17,6 +17,7 @@ public class ConsumerController {
         int a=222;
         int b=666;
         int c=333;
+        int qqqqq=6789;
         int d=888;
         return computeClient.add(10, 20);
     }
