@@ -15,6 +15,7 @@ public class ConsumerController {
     @RequestMapping(value = "/add", method = RequestMethod.GET)
     public Integer add() {
         int a=222;
+        int b=666;
         return computeClient.add(10, 20);
     }
 
